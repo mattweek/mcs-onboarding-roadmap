@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mcs-roadmap-client-side-solution",
+    "id": "bfd685d6-7926-4248-94a0-42bae24d1e15",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MCSRoadmap description"
+      },
+      "longDescription": {
+        "default": "MCSRoadmap description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mcs-roadmap Feature",
+        "description": "The feature that activates elements of the mcs-roadmap solution.",
+        "id": "c69b77bd-999d-4c12-87a4-bdb814008465",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mcs-roadmap.sppkg"
+  }
+}
